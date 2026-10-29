@@ -64,23 +64,77 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-InsureMo is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
+InsureMo provides an AI‑ready insurance middle‑office platform offering API, data, and AI services for insurers, channels, tech companies, and partners. The platform includes pre‑built agent capabilities, rule checking, and integration tools to accelerate product development and digital distribution. It aims to modernize core insurance processes, enable ecosystem connectivity, and support AI‑driven workflows across the insurance value chain.
 
-**Areas:** Company
+**Areas:** Company · Insurance · AI · Platform · API
 
 ## InsureMo on APIs.io
 
 Everything profiled for InsureMo is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/insuremo-com/](https://apis.io/providers/insuremo-com/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Insuremo Com Domain Security](https://apis.io/security/insuremo-com/insuremo-com-domain-security/)
 
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://insuremo.com)
+- [Documentation](https://docs.insuremo.com/)
+- [Blog](https://insuremo.com/en/blog)
+- [Terms of service](https://insuremo.com/en/site-terms)
+- [Privacy policy](https://insuremo.com/en/privacy-policy)
+- [GitHub](https://github.com/InsureMO)
 
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/insuremo-com/](https://apis.io/providers/insuremo-com/).
+**Kin Score 13.4** — emerging · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 50.0 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 21.4 |
+| Access clarity | 21.1 |
+
+**Agent readiness 6.0** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 11.5** — Insurance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/insuremo-com/](https://apis.io/providers/insuremo-com/).
 
 ## How this profile is made
 
