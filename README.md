@@ -72,15 +72,25 @@ InsureMo provides an AI‑ready insurance middle‑office platform offering API,
 
 Everything profiled for InsureMo is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/insuremo-com/](https://apis.io/providers/insuremo-com/)** — or go straight to one of the APIs or properties below.
 
+### APIs (1)
+
+- [InsureMo API](https://apis.io/apis/insuremo-com/insuremo-api/) — API platform providing insurance, data, and AI services as documented
+
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [insuremo-com-mcp.yml](https://apis.io/servers/insuremo-com/insuremo-com-mcp-yml/)
 
 #### Security (1)
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Insuremo Com Domain Security](https://apis.io/security/insuremo-com/insuremo-com-domain-security/)
+- [InsureMo Domain Security](https://apis.io/security/insuremo-com/insuremo-com-domain-security/)
 
 ## Where to find this API
 
@@ -95,18 +105,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 13.4** — emerging · rubric 0.25.0 · scored 2026-10-29
+**Kin Score 16.6** — emerging · rubric 0.28.0 · scored 2026-11-17
 
 | Facet | Score |
 |---|---|
-| Discoverability | 50.0 |
+| Discoverability | 68.3 |
 | Contract quality | 0.0 |
 | Contract governance | 0.0 |
-| Operational transparency | 5.3 |
+| Operational transparency | 4.8 |
 | Developer ergonomics | 21.4 |
-| Access clarity | 21.1 |
+| Access clarity | 31.9 |
 
-**Agent readiness 6.0** — agent-aware
+**Agent readiness 3.5** — human-only
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -121,7 +131,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Rate Limit Signal | — |
 | Event Surface Described | — |
 | Agent Skills | — |
-| Well Known Catalog | yes |
+| Well Known Catalog | — |
 | Consent Identity | — |
 | Agent Card | — |
 | Dry Run Mode | — |
@@ -131,8 +141,9 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | na |
+| MCP Tool Quality | na |
 
-**Regulatory alignment 11.5** — Insurance
+**Regulatory alignment 6.6** — Insurance
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/insuremo-com/](https://apis.io/providers/insuremo-com/).
 
