@@ -1,4 +1,4 @@
-# InsureMo
+# insureMO
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -68,13 +68,13 @@ InsureMo provides an AI‑ready insurance middle‑office platform offering API,
 
 **Areas:** Company · Insurance · AI · Platform · API
 
-## InsureMo on APIs.io
+## insureMO on APIs.io
 
-Everything profiled for InsureMo is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/insuremo-com/](https://apis.io/providers/insuremo-com/)** — or go straight to one of the APIs or properties below.
+Everything profiled for insureMO is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/insuremo-com/](https://apis.io/providers/insuremo-com/)** — or go straight to one of the APIs or properties below.
 
 ### APIs (1)
 
-- [InsureMo API](https://apis.io/apis/insuremo-com/insuremo-api/) — API platform providing insurance, data, and AI services as documented
+- [insureMO API Platform](https://apis.io/apis/insuremo-com/insuremo-api/) — insureMO's API platform of 2,500+ atomic insurance APIs covering product, quote, proposal, policy, endorsement, billing, claims and servicing, plus…
 
 ### Published properties
 
@@ -86,11 +86,47 @@ Model Context Protocol servers that expose the API to agents.
 
 - [insuremo-com-mcp.yml](https://apis.io/servers/insuremo-com/insuremo-com-mcp-yml/)
 
-#### Security (1)
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [PostApiPlatformPaCorePolicyfeeinfoV1CreateRequest](https://apis.io/schemas/insuremo-com/insuremo-com-post-api-platform-pa-core-policyfeeinfo-v1-create-request/)
+- [PostApiPlatformPaCorePolicyfeeinfoV1UpdateRequest](https://apis.io/schemas/insuremo-com/insuremo-com-post-api-platform-pa-core-policyfeeinfo-v1-update-request/)
+- [PostApiPlatformProposalCorePrepayV1CreateRequest](https://apis.io/schemas/insuremo-com/insuremo-com-post-api-platform-proposal-core-prepay-v1-create-request/)
+- [PostProposalUnderwritingManualSaveRequest](https://apis.io/schemas/insuremo-com/insuremo-com-post-proposal-underwriting-manual-save-request/)
+- [PostProposalUnderwritingManualSaveTrackRequest](https://apis.io/schemas/insuremo-com/insuremo-com-post-proposal-underwriting-manual-save-track-request/)
+- [PostProposalUnderwritingManualUpdateRequest](https://apis.io/schemas/insuremo-com/insuremo-com-post-proposal-underwriting-manual-update-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Insuremo Com Context](https://apis.io/jsonld/insuremo-com/insuremo-com-context/)
+
+#### Collections (1)
+
+Postman and Open Collection request collections.
+
+- [InsureMO API](https://apis.io/collections/insuremo-com/postman-insuremo-com-api-sample/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [insureMO API Rules](https://apis.io/rules/insuremo-com/insuremo-com-rules/)
+
+#### Security (2)
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [InsureMo Domain Security](https://apis.io/security/insuremo-com/insuremo-com-domain-security/)
+- [insureMO Authentication](https://apis.io/security/insuremo-com/insuremo-com-authentication/)
+- [insureMO Domain Security](https://apis.io/security/insuremo-com/insuremo-com-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [insureMO Scopes](https://apis.io/scopes/insuremo-com/insuremo-com-scopes/)
 
 ## Where to find this API
 
@@ -105,26 +141,26 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 16.6** — emerging · rubric 0.28.0 · scored 2026-11-17
+**Kin Score 45.0** — developing · rubric 0.28.0 · scored 2026-11-26
 
 | Facet | Score |
 |---|---|
-| Discoverability | 68.3 |
-| Contract quality | 0.0 |
-| Contract governance | 0.0 |
+| Discoverability | 76.7 |
+| Contract quality | 45.6 |
+| Contract governance | 79.1 |
 | Operational transparency | 4.8 |
-| Developer ergonomics | 21.4 |
+| Developer ergonomics | 37.6 |
 | Access clarity | 31.9 |
 
-**Agent readiness 3.5** — human-only
+**Agent readiness 30.8** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
-| Spec Presence | — |
+| Spec Presence | yes |
 | Agentic Access | — |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
-| Auth Clarity | — |
+| Auth Clarity | served (partial credit) |
 | Idempotency | — |
 | Error Semantics | — |
 | OpenAPI Examples | — |
@@ -135,15 +171,15 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Consent Identity | — |
 | Agent Card | — |
 | Dry Run Mode | — |
-| Delegated Identity | — |
-| Protected Resource Metadata | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | na |
 | MCP Tool Quality | na |
 
-**Regulatory alignment 6.6** — Insurance
+**Regulatory alignment 29.5** — Insurance
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/insuremo-com/](https://apis.io/providers/insuremo-com/).
 
@@ -151,7 +187,7 @@ The rubric is published at [github.com/api-evangelist/kin-score](https://github.
 
 API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for InsureMo: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for insureMO: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
 ## Open an issue
 
